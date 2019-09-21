@@ -1,0 +1,33 @@
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.side-bar{
+    width:120px;
+    height: 100%;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-top: 20px;
+    overflow-x: hidden;
+}
+.side-bar a{
+    text-decoration: none;
+    padding: 6px 8px 6px 16px;
+    display: block;
+    font-size: 20px;
+    color:whitesmoke;
+}
+.side-bar a:hover{
+    color: bisque;
+}
+.main{
+    margin-left: 130px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+@media screen and (max-height:450px){
+    .side-bar{padding-top:15px;}
+    .side-bar a {font-size: 18px;}
+}
